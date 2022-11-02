@@ -68,7 +68,7 @@ terms:operand and operator
  isNaN(Number.NaN)(true)
 ...>arithmetic operators(+,-,/,*,%,++x,x++,--x,x--,**(exponentiation operator))
 ...>comparison operators(>,<,>=,<=,==,===,!=)
-...>logical operators(&&,||,!,!!)
+...>logical operators(&&,||,!,!!) 
 ...>string operators(+ ->concatenation operator)
 ...>conditional operator(ternary operator)
 
