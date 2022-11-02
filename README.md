@@ -1280,10 +1280,45 @@ with proerties of describing physical display.
 
 
 
+// difference between DOM vs BOM
 
 
 
 
+BOM:
+
+The BOM is the window object that represents a window in the browser. An object of the window is created automatically by the browser.
+
+The power of the BOM
+With the window object, you can:
+
+Manipulate the browser window with the window object and things like scrolling, opening a new window, closing the current window, ..Etc.
+Use the object document property to interact with the DOM.
+Get the browser history with the history object.
+Manipulate the screen with the screen object.
+Get and do things with the location object.
+
+
+
+DOM:
+
+
+The DOM (Document Object Model)
+DOM = The whole content of the web page
+
+The DOM consists of the document node which represents the content of the page. You can manipulate it using javascript.
+
+The document object represents the whole HTML document. When an HTML document is loaded in the browser, it becomes a document object, and you can use document object to manipulate the web page.
+
+The power of the DOM
+There are a lot of things we can do with the DOM object. You’ll be able to pick an HTML element and manipulate it in your JS script.
+
+Change an element text.
+Change an HTML element color.
+Hide and show elements
+Make an HTML elements listen to an event
+And much more…
+Now that you can differentiate between the BOM and the DOM. Let’s manipulate the web page in the next article by learning how to select HTML elements.
 
 
 
