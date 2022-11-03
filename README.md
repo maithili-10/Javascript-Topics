@@ -1321,23 +1321,68 @@ And much more…
 Now that you can differentiate between the BOM and the DOM. Let’s manipulate the web page in the next article by learning how to select HTML elements.
 
 
+////////////////////////////////////////////////////////OOPs In JS/////////////////////////////////////////
+
+=>Object Literal
+=>this in js
+object literal:object is simply a key:value data structure
+
+storing variable and functions together in one container.
+
+How to create objects?
+
+//first way of creating object
+
+// let bioData={
+
+//   myname:"maithili",
+//   myAge:"26",
+//   getData:function(){
+//   console.log(`my name is ${bioData.myname}`)
+//   }
+
+//   }
+
+// bioData.getData()
+
+//second way of creating object
+
+// let bioData={
+
+//   myname:"maithili",
+//   myAge:"26",
+//   getData(){
+//   console.log(`my name is ${bioData.myname}`)
+//   }
+
+//   }
+
+// bioData.getData()
+
+//object inside object
+
+let bioData = {
+  myname: {
+    firstname: 'maithili',
+    lastname: 'kammila',
+  },
+  myAge: '26',
+  getData() {
+    console.log(`my name is ${bioData.myname}`);
+  },
+};
+
+bioData.getData();
+
+//this object in javascript
 
 
 
+the definition of "this " object is that it contain the current context.
+this object can have different values based on where it is placed.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+e.g:
 
 
 
