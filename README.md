@@ -1609,5 +1609,13 @@ object.entries(person);
 output:
 
 
+["fred", 27]
+[Array[2], Array[2]]
+0: Array[2]
+0: "name"
+1: "fred"
+1: Array[2]
+0: "age"
+1: 27
 
 
