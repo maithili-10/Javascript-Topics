@@ -1572,12 +1572,41 @@ myname: "maithili k"
 
 
 
+=>spread operator
+=>rest operator
 
 
+ES7 features
+
+array.prototype.includes
+
+exponentiation operator
 
 
+ES8
+
+string padding
+Object.entries()
+Object.values()
 
 
+string padding
+padStart(length)
+padEnd(length)
+
+
+object.values()
+
+e.g:
+const person={
+name:"fred",
+age:"27"
+}
+
+object.values(person);
+object.entries(person);
+
+output:
 
 
 
