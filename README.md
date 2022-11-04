@@ -1514,8 +1514,60 @@ console.log(age);
 
 //here the construct is the names should be same while assigning as it is object.
 
+Object Properties:
+
+//we can now use Dynamic properties
 
 
+let myname="vinod";
+const myBio={
+
+myName:"maithili"
+26:"is my age"
+}
+
+console.log(myBio);
+ 
+ output:
+ {26: "is my age", myName: "maithili"}
+
+now if you want to give dynamic value then you can write it in square brackets .
+
+
+let myname="vinod";
+const myBio={
+
+[myName]:"maithili"
+[20+6]:"is my age"
+}
+
+console.log(myBio);
+
+
+now output is:
+{26: "is my age", vinod: "maithili"}
+26: "is my age"
+vinod: "maithili"
+
+
+
+// no need to write key : value if both are same
+
+for e.g:
+
+let myname="maithili k";
+
+let myage=26;
+
+const myBio={
+myname:myname,
+myage:myage
+}
+
+output:{myname: "maithili k", myage: 26}
+myage: 26
+myname: "maithili k"
+<prototype>: Object
 
 
 
