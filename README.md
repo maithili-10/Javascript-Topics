@@ -1385,6 +1385,146 @@ this object can have different values based on where it is placed.
 e.g:
 
 
+//examples of this
+
+//1.
+//console.log(this);
+//2
+
+// function myName() {
+//   console.log(this);
+// }
+
+//myName();
+
+//3
+
+// var name = 'maithili';
+
+// function myName() {
+//   console.log(this.name);
+// }
+
+// myName();
+
+//4
+
+// let obj = {
+//   myage: 26,
+//   myname() {
+//     console.log(this.myage);
+//   },
+// };
+// obj.myname();
+
+//5(this type can be the interview question)
+
+// let obj={
+//   myage:26,
+//   myname:()=>{
+//     console.log(this.myage);
+//   }
+// }
+// obj.myname();
+
+//as we have learnt arrowfunction does not accept this.
+
+//it will come as undefined.
+
+//what will be the output of this below code?
+
+let bioData = {
+  myname: {
+    realname: 'maithili',
+    channelname: 'myra vlogs',
+  },
+  myage: 26,
+  getBioData() {
+    console.log(
+      `my name is ${this.myname.channelname} and my age is ${this.myage}`
+    );
+  },
+};
+
+bioData.getBioData();
+
+//ouput:my name is myra vlogs and my age is 26
+
+
+
+Destructuring in ES6:
+
+Array destructuring 
+
+Object destructuring
+
+
+ //ARRAY DESTRUCTURING :
+
+//DEFINITION: array destructuring syntax is an expression that makes it possible unpack values from an arrays or propeties from ojects into distinct variables.
+
+let bioData = ['maithili', 'angajala', 26];
+
+// if we break the array and we wish to assign it to a variable we do like this.
+
+// let fname=bioData[0];
+// let lname=bioData[1];
+// let age=bioData[2];
+
+// console.log(fname,lname,age);
+
+// now if the array is large we cant do it like one by one so the solution to this is array destructuring, no we do like below
+
+// let [fname,lname,age]=bioData;
+
+// console.log(fname,lname,age);
+
+// if you want add new data also you can acheive that
+
+// let [fname,lname,age,degree="Btech"]=bioData;
+
+//  console.log(fname,lname,age,degree);
+
+//output:maithili angajala 26 Btech
+
+
+// note:Here in destructuring what matters is the array position that matters it should be in the respective position which you want to assign.
+
+
+
+OBJECT DESTRUCTURING:
+
+
+let obj={
+  myfname:"maithili",
+  mylname:"kammila",
+  age:26
+}
+
+// let age=obj.age;
+// let myfname=obj.myfname;
+// let mylname=obj.mylname;
+
+
+
+let {myfname,mylname,age,degree="Btech"}=obj;
+
+console.log(age);
+
+
+//here the construct is the names should be same while assigning as it is object.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
